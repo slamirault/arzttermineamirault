@@ -1,0 +1,18 @@
+<div class="jumbotron jumbotron-cal">
+  <div *ngFor="let day of days" class="col-md-2 col-md-2-day">
+    <div class="jumbotron-day">
+      <div class="text-center dayStyle">
+        <div>{{day.name}}</div>
+        <small>{{day.date}}</small>
+      </div>
+      <div *ngFor="let appointment of day.appointments">
+        <div class="tooltipStyle text-center">{{appointment.time}}
+          <span class="tooltiptext">{{appointment.tooltip}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class=".col-md-2-day seeMore">
+    <span>See more >></span>
+  </div>
+</div>

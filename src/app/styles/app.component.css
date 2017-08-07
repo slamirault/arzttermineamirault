@@ -1,0 +1,48 @@
+.top-bar {
+  background:#0090d6;
+  margin:0;
+  padding:0;
+  height:30px;
+}
+
+.jumbotron-search {
+  background: #B5C8D1;
+  padding: 20px;
+}
+
+.mainContent {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.mainContent h1 {
+  margin-left: 15px;
+}
+
+#insuranceRadioContainer div {
+  display:inline;
+  margin-right:20px;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+.mapStyle {
+  padding:0; margin:0
+}
+
+.searchRow {
+  height:45px;
+}
+
+.secondRow {
+  margin: 0px;
+  padding:0px;
+}
+
+#distanceDiv {
+  padding-left:10px;
+}
+
+

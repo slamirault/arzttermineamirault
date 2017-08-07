@@ -1,0 +1,15 @@
+<div *ngFor="let doctor of doctors; let i=index">
+  <div class="col-md-12">
+    <div class="col-md-12"><h4>{{i +1}}. {{doctor.name}} <small>{{doctor.streetAddress}}, {{doctor.city}}</small></h4></div>
+    <div class="col-md-2">
+
+
+      <div><img src="{{doctor.image}}" alt="{{doctor.name}}" class="img-thumbnail" /></div>
+
+
+    </div>
+    <div class="col-md-10">
+      <calendar [days]="doctor.days"></calendar>
+    </div>
+  </div>
+</div>
