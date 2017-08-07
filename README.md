@@ -20,7 +20,7 @@ Here is the structure of the site (i.e. which HTML references another):
         * doctor-detail.component.html
             * calendar.component.html
 
-###Things left to do:
+### Things left to do:
 * Extract the search box into its own Component
     * Populate drop-downs dynamically from the backend
 * Extract the map into its own Component
@@ -31,7 +31,7 @@ Here is the structure of the site (i.e. which HTML references another):
 * Add JSON call to search button to get JSON data
 * Add metadata for SEO optimization
 
-###Extras:
+### Extras:
 * Make site more responsive for all screens (currently looks best with large screen)
 * Add better styling all around to site
 * Update the appointments calendar
